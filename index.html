@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="https://media-exp1.licdn.com/dms/image/C4E1BAQGLv4LuFnH4OA/company-background_10000/0?e=2159024400&v=beta&t=RAGKFDveRkpEGDxV4BRpzreYM0_4mufI4qprRNMmfdA" type="image/jpg">
+	<title>Anthology</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <script src="js/jquery-1.11.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+	<script type="text/javascript" src="script.js"></script>
+
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div href="https://media-exp1.licdn.com/dms/image/C4E1BAQGLv4LuFnH4OA/company-background_10000/0?e=2159024400&v=beta&t=RAGKFDveRkpEGDxV4BRpzreYM0_4mufI4qprRNMmfdA" alt="logo" ></div>
+					</a>
+
+					<div class="navbar-brand" style="text-align: center;">
+
+						<a href="index.html" id="title" ><h1>Unbolted Hearts and Minds:)</h1></a>
+						<p>
+						
+						<span>Untold and unheard poems,articles!..</span>
+
+					</p>
+					<button type="button" class="btn btn-dark active"  style="stat" onclick="window.location.href='index.html';">Home</button>
+					<button type="button" class="btn btn-dark" onclick="regsitrat()">Register</button>
+					<button type="button" class="btn btn-dark" onclick="regsitrations()">Show registrations</button>
+					
+					</div>
+					
+        </div>
+      </div>
+    </nav>
+  </header>
+ 
+<hr>
+<div class="resize">
+<img src="https://images-na.ssl-images-amazon.com/images/I/81ij9r8+ekL.jpg" class="responsive" style="width: 300px; height: 300px;" >
+<span class="resizee">
+  <em>
+  So this is our latset collection <br>
+  we want you to be the part of this Anthology..<br>
+  and become Compiler of the book..<br>
+  Here, we can offer following things to you:<br>
+  <li>Ecertificate</li>
+  <li>Promation of your writeups</li>
+  <li>One copy of the Book</li>
+  And most importantly,the amazing experience to work with great writers<br>
+  So just go and Register!!..
+  </em>
+  </span>
+</div>
+
+
+
+
+    <div class="container" style="display: none; background-color: #1d1e22  ;padding: 30px" id="register" align="center" >
+    	<p style="text-align: center; font-size: 50px">Register to be the Part!</p>
+  
+ 			 <form id="reg" method="post" target="ninja-frame" name="reg" ><p>* Required fields</p>
+  	
+        
+        <input type="text" name="name" id="name" style="color: black" class="field-long" placeholder="*Name" /><br><br>
+      
+        
+        <input type="text" style="color: black" name="eid" id="eid" class="field-long" placeholder="*Email id"/><br><br>
+        
+        <label>*Gender :<span class="required"></span></label><br>
+        <input type="radio" id="male" name="gender" value="male"> 
+        <label for="male">Male&nbsp;</label>
+  	    <input type="radio" id="female" name="gender" value="female">
+  		<label for="female">Female&nbsp;</label>
+  		<input type="radio" id="other" name="gender" value="other">
+  		<label for="other">Other</label><br><br>
+        
+     
+        
+        <input type="text" style="color: black"  id="cno" class="field-short" placeholder="*Contact Number"/><br><br>
+      
+      
+        
+        <input style="color: black" type="text" name="iid" id="iid" class="long" placeholder="Instagram id"/><br><br>
+     
+        
+      
+        <label>*Category:</label>
+        <select name="field4" class="field-select" name="category" id="category" style="color: black">
+          <option value="Story">Story</option>
+          <option value="Poem">Poem</option>
+          <option value="Article">Article</option>
+          
+        </select><br>
+      
+        <label>* Topic :</label><br>
+        <textarea name="field5" id="topic" class="field-long field-textarea" style="color: black"></textarea><br><br>
+     	<button class="btn btn-light"  type="button" onclick="addHtmlTableRow();" style="color: black">Submit </button> <br>
+   
+  </form>
+  </div>
+
+ <br>
+
+  <center><div class="summary" id="tabless" style="display: none;background-color: #1d1e22  ;padding: 30px;">
+    <h1 style="font-size: 50px; ">Registrations : </h1>
+     
+    <table id="table" class="table">
+      <tr class="table">
+        <th>Filled on</th>
+        <th>Name</th>
+        <th>Email id</th>
+        <th>Gender</th>
+        <th>Contact No.</th>
+        <th>Instagram id</th>
+        <th>Category</th>
+        <th>Topic</th>
+      </tr>
+     
+    </table>
+  
+</div></center>
+
+<h2><em>Our previous creations..</em></h2>
+<div class="grid" style="display:flex; list-style: none; justify-content: space-between;">
+
+<li><img src="https://cdn2.penguin.com.au/covers/150/9781784162986.jpg" class="responsive" style="width: 400px;height:350px;"></li>
+
+<li><img src="https://www.denofgeek.com/wp-content/uploads/2020/04/best-fantasy-anthologies-2020.png?resize=768%2C432" class="responsive" style="width: 400px;height:350px;"></li>
+
+
+<li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShcSGqIqw7F3J5Lke593MoT_y_YOKDDyJfkQ&usqp=CAU" class="responsive" style="width: 400px;height:350px;"></li>
+</div>
+<hr>
+
+<footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>P.O. BOX:</span><br>
+          M G Road<br>
+          Juke Solapur, IMS,<br> Solapur 413109
+          
+          <hr class="visible-xs">
+        </section>
+        <section id="hours" class="col-sm-4">
+          <span>Conatct us at:</span><br>
+          ss86709027@gmail.com,<br>
+          calacoanthony09@gmail.com,<br>
+          Ankita & Anthony
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The first draft is just you telling yourself the story."</p>
+          <p>"Description begins in the writer’s imagination but should finish in the reader’s."</p>
+          <p>"NO Critics,NO Success."</p>
+          <hr class="visible-xs">
+        </section>
+      </div>
+      <div class="text-center">&copy; Unbolted Hearts and Minds 2020</div>
+    </div>
+  </footer>
+
+
+
+    
+</body>
+</html>
